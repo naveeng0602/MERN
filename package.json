@@ -7,15 +7,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm start\" \"npm run client\"",
-    "start:dev": "env-cmd -f react-scripts start",
-    "build:dev": "env-cmd -f react-scripts build",
-    "build": "env-cmd -f react-scripts build",
-    "starts": "env-cmd -f react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "dev": "concurrently \"npm start\" \"npm run client\""
+    
   },
   "keywords": [],
   "author": "Naveen Gupta",
